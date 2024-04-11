@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Navbar = () => {
-
+const Footer = () => {
   return (
-    <nav className='bg-zinc-800 text-white'>
-        <div className="mycontainer flex justify-between items-center px-4 py-5 h-14">
+    <div>
+        <footer className='bg-zinc-800 text-white fixed bottom-0 w-full'>
+            <div className="flex flex-col text-center items-center px-5 py-5 h-14">
 
             <div className="logo font-bold text-2xl">
                 <span >&lt;</span>
@@ -25,13 +25,12 @@ const Navbar = () => {
                 </span>
                 t
                 <span className='text-green-400'>/</span>
-                <span>&gt;</span>
-                
-            </div>
-            <button className='w-10'><a href="https://github.com/Harshit4404" target='_blank'><img src="icons/github.png" alt="github"/></a></button>
+                <span>&gt;</span> By Harshit
         </div>
-    </nav>
+    </div>
+    </footer>
+    </div>
   )
 }
 
-export default Navbar
+export default Footer
